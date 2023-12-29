@@ -1,0 +1,58 @@
+Received message: {
+    id: 0,
+    createdAt: '0001-01-01T00:00:00Z',
+    updatedAt: '0001-01-01T00:00:00Z',
+    deletedAt: null,
+    orderId: 'BTC-TRY_0_100_2_1683585311_9253',
+    userId: 0000,
+    done: null,
+    partial: null,
+    partialQuantityProcessed: '0',
+    quantityLeft: '0',
+    commission: '0.000000255',
+    quantity: '0.000169745',
+    side: 0,
+    orderBookTimestamp: '0001-01-01T00:00:00Z',
+    price: '581685',
+    quoteAssetQuantity: '0',
+    type: 0,
+    totalQuantity: '0'
+  }
+  Received message: {
+    id: 13833,
+    createdAt: '2023-05-08T22:35:15.117Z',
+    updatedAt: '2023-05-08T22:35:15.117Z',
+    deletedAt: null,
+    orderId: 'BTC-TRY_0_100_2_1683585311_9253',
+    userId: 0000,
+    done: [
+      {
+        side: 'sell',
+        id: '16418_-300_BTC-TRY_0_0.00017_2_1683585314_0',
+        timestamp: '2023-05-08T22:35:14.692059792Z',
+        quantity: '0.00017',
+        price: '581685',
+        quoteAssetQuantity: '0'
+      },
+      {
+        side: 'buy',
+        id: 'BTC-TRY_0_100_2_1683585311_9253',
+        timestamp: '2023-05-08T22:35:11Z',
+        quantity: '0.00017',
+        price: '581685',
+        quoteAssetQuantity: '100'
+      }
+    ],
+    partial: null,
+    partialQuantityProcessed: '0',
+    quantityLeft: '0',
+    commission: '-1',
+    totalQuantity: '100',
+    quantity: '0.00017',
+    side: 1,
+    orderBookTimestamp: '2023-05-08T22:35:11Z',
+    omeType: 0,
+    price: '581685',
+    quoteAssetQuantity: '100',
+    market: 'BTC-TRY'
+  }
